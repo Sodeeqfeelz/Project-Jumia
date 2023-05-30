@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="Bootstrap Ass/bootstrap.css">
+        <style>
+            #contain {
+                text-align: center;
+            }
+            #imgHead {
+                width: 15%;
+                height: 10%;
+            }
+            #head1 {
+                font-size: 20px;
+            }
+            #fn,#ln, #pn,#em,#ps, #con {
+                height: 8vh;
+            }
+            #con {
+                background-color: #F9A03D;
+                box-shadow: 0px 1px 2px rgb(102, 102, 102);
+                color: white;
+                font-weight: bold;
+            }
+            #para2 {
+                font-size: 14px;
+                margin-top: 20px;
+            }
+            #imgLast {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contain" class="col-lg-4 col-md-4 col-sm-6 mt-lg-3 mt-md-3 mt-sm-2 mx-auto p-3">
+            <img id="imgHead" src="image/favicon.ico" alt="">
+            <h2 id="head1" class="mt-3">Personal details</h2>
+            <p id="para1">We just need you to fill in some details.</p>
+            <input type="text" placeholder="First Name*" id="fn" class="form-control mt-2">
+            <input type="text" placeholder="Last Name*" id="ln" class="form-control mt-2">
+            <input type="text" placeholder="Phone Number*" id="pn" class="form-control mt-2">
+            <input type="text" placeholder="Email" id="em" class="form-control mt-2">
+            <input type="text" placeholder="Password*" id="ps" class="form-control mt-2">
+            <button id="con" onclick="signUp()" class="form-control mt-2">Continue</button>
+            <div id="para2">For further support, you may visit the Help Center or contact our customer service team.</div>
+            <img id="imgLast" src="image/jumia image.png" alt="">
+        </div>
+        <script>
+            let jumiaCustomers = []
+            if(localStorage.jumiaEcom){
+                jumiaCustomers = JSON.parse(localStorage.getItem("jumiaEcom"))
+                console.log(jumiaCustomers)
+            }
+            const signUp =() =>{
+                // alert("izz working")
+                if(fn.value=="" || ln.value==""){
+                    alert("Enter all details")
+                }else {
+                    let customers = {
+                        firstname: fn.value,
+                        lastname: ln.value,
+                        phonenumber: pn.value,
+                        email: em.value,
+                        password: ps.value
+                    }
+                    jumiaCustomers.push(customers)
+                    fn.value = ""
+                    ln.value = ""
+                    pn.value = ""
+                    em.value = ""
+                    ps.value = ""
+                    localStorage.setItem("jumiaEcom",JSON.stringify(jumiaCustomers))
+                    window.location.href = "signIn.html"
+                    console.log(jumiaCustomers)
+                }
+            }
+        </script>
+    </body>
+</html>

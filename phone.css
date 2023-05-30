@@ -1,0 +1,156 @@
+@media screen and (max-width: 475px) {
+    #div2 {
+        display: none;
+    }
+    #div3-1 {
+        width: 30%;
+    }
+    #paraDiv3 {
+        margin: 7px 0px 0px 10px;
+        font-size: 27px;
+    }
+    #imgDiv3 {
+        max-width: 15%;
+    }
+    #div3-2 {
+        width: 70%;
+    }
+    #div3Inp {
+        border: 1px solid;
+        width: 50vw;
+        border-radius: 10px;
+    }
+    #imgDiv3-2 {
+        max-width: 12%;
+    }
+    #inpDiv3-2 {
+        width: 40vw;
+    }
+    ::placeholder {
+        font-size: 12px;
+    }
+    #btnDiv3 {
+        width: 24%;
+    }
+    #div3-3 {
+        display: none;
+    }
+    /* #mainHold {
+        border: 1px solid red;
+    } */
+    #gridItem {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    #gridItem:nth-child(1) {
+        height: 95vh;
+        flex-direction: column;
+    }
+    #flexItem1 {
+        width: 85vw;
+        margin: 0px;
+        padding: 0px;
+    }
+    #aFlex1 {
+        font-size: 15px;
+    }
+    #flexItem2 {
+        width: 85.5vw;
+    }
+    #imgFlex2 {
+        height: 40vh;
+    }
+    #flexItem3 {
+        display: none;
+    }
+    #gridItem:nth-child(2) {
+        height: 55vh;
+        padding-left: 10px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    #card1 {
+        width: 20vw;
+    }
+    #imgCard1 {
+        width: 100%;
+    }
+    #grid3Body2 {
+        overflow-x: scroll;
+    }
+    #card2 {
+        width: 27vw;
+        height: 40vh;
+    }
+    #imgCard2 {
+        width: 100%;
+    }
+    #time1,#time2 {
+        width: 50vw;
+    }
+    #time3 {
+        display: none;
+    }
+    #h2T {
+        font-size: 20px;
+    }
+    #grid4Body2 {
+        overflow-y: scroll;
+    }
+    #card3 {
+        width: 27vw;
+    }
+    #grid5Body2 {
+        overflow-x: scroll;
+    }
+    #card6 {
+        width: 27vw;
+    }
+    #imgCard6 {
+        width: 100%;
+    }
+    #grid7Body2 {
+        overflow-x: scroll;
+    }
+    #grid8Body2 {
+        overflow-x: scroll;
+    }
+    #grid9Body2 {
+        overflow-x: scroll;
+    }
+    #grid10Body2 {
+        overflow-x: scroll;
+    }
+    #grid11Body2 {
+        overflow-x: scroll;
+    }
+    #gridItem:nth-child(12) {
+        overflow-x: scroll;
+    }
+    #grid13Body2 {
+        overflow-x: scroll;
+    }
+    #gridItem:nth-child(14) {
+        overflow-x: scroll;
+    }
+    #grid15Body2 {
+        overflow-x: scroll;
+    }
+    #gridItem:nth-child(16) {
+        overflow-x: scroll;
+    }
+    #gridItem:nth-child(17) {
+        overflow-x: scroll;;
+    }
+    #grid18Body2 {
+        overflow-x: scroll;
+    }
+    #grid19Body2 {
+        overflow-x: scroll;
+    }
+    #gridItem:nth-child(20) {
+        border: 1px solid green;
+        height: 150vh;
+        background-color: white;
+    }
+}
