@@ -5,13 +5,189 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="phone.css">
+        <link rel="stylesheet" href="Bootstrap Ass/bootstrap.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <style>
+            body{
+                background-color: #F1F1F2;
+            }
+            main {
+                background-color: #F1F1F2;
+            }
+            #flex1, #flex2, #flex3 {
+                border-radius: 5px;
+                background-color: white;
+            }
+            #comingImage {
+                width: 50%;
+                margin: 0px 10px 10px 0px;
+                float: left;
+            }
+            #about {
+                margin: 10px 0px 0px 90px;
+                font-size: 14px;
+            }
+            #divBut {
+                border-radius: 5px;
+                height: 7vh;
+                background-color: #E61601;
+            }
+            #size {
+                gap: 5px;
+            }
+            #size1 {
+                border: 1px solid;
+                height: 5vh;
+                width: 20%;
+            }
+            #p1, #p2, #p3, #p4 {
+                font-size: 15px;
+                color: blue;
+            }
+            #p1 {
+                color: black;
+                font-weight: bold;
+            }
+            #fol {
+                color: white;
+                font-weight: bold;
+                background-color: #FF9200;
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
-    <body>
-        <div id="disp"></div>
+    <body onload="displayCart()">
+        <div id="div1">
+            <img id="imgGif" src="image/free-deliv-gif.gif" alt="">
+        </div>
+        <div id="div2">
+            <div id="div2-1">
+                <a href="" id="aDiv2"><img id="imgDiv2" src="image/favicon.ico" alt=""> Sell on Jumia</a>
+            </div>
+            <div id="div2-2">
+                <span href="" id="aDiv2-1">JUMIA<img id="imgDiv2-1" src="image/favicon.ico" alt=""></span>
+                <a href="" id="aDiv2-2">⑩PAY</a>
+                <a href="" id="aDiv2-3">☄FOOD</a>
+                <a href="" id="aDiv2-4">🧴PARTY</a>
+                <a href="" id="aDiv2-5">௹LOGISTICS </a>
+            </div>
+        </div>
+        <div id="div3">
+            <div id="div3-1">
+                <p id="paraDiv3">JUMIA<img id="imgDiv3" src="image/favicon.ico" alt=""></p>
+            </div>
+            <div id="div3-2" class="d-flex">
+                <div id="div3Inp">
+                    <img id="imgDiv3-2" src="image/search.png" alt="">
+                    <input id="inpDiv3-2" type="text" placeholder="Search products, brands and categories">
+                </div>
+                <button id="btnDiv3">SEARCH</button>
+            </div>
+            <div id="div3-3">
+                <button id="btnDrop1"type="button" class="dropdown-toggle"data-bs-toggle="dropdown" ><img id="imgDrop1" src="image/1-removebg-preview (1) - Copy.png" alt="">Account</button>
+                    <ul id="ul1" class="dropdown-menu">
+                    <li><a class="dropdown-item" onclick="signIn()"><button id="btnDrop2">SIGN IN</button></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"><img id="imgDrop2" src="image/1-removebg-preview (1).png" alt="">My Accounts</a></li>
+                    <li><a class="dropdown-item" href="#"><img id="imgDrop2" src="image/1-removebg-preview (1).png" alt="">Orders</a></li>
+                    <li><a class="dropdown-item" href="#"><img id="imgDrop2" src="image/1-removebg-preview (1).png" alt="">Saved Items</a></li>
+                    </ul>
+                <button id="btnDrop1-2" type="button"class="dropdown-toggle" data-bs-toggle="dropdown" ><img id="imgDrop1" src="image/help.png"alt=""> help</button>
+                    <ul id="ul1" class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Help Center</a></li>
+                    <li><a class="dropdown-item" href="#">Place & track order</a></li>
+                    <li><a class="dropdown-item" href="#">Order cancellation</a></li>
+                    <li><a class="dropdown-item" href="#">Returns & Refunds</a></li>
+                    <li><a class="dropdown-item" href="#">Payment & Jumia account</a></li>
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"><button id="btnDrop2">💬 LIVE CHAT</button></a></li>
+                </ul>
+                <a href="" id="aDrop">
+                    <img id="imgDrop1-1" src="image/3.png"alt=""><span id="dropSpan">Cart</span>
+                </a>
+            </div>
+        </div>
+        <main>
+            <p id="about" class="">Home > Fashion > Men's Fashion > Clothing > Shirts > Casual Button-Down Shirts > Funny Style Cartoon Printed Short Sleeve Shirts Men Blouse-Black</p>
+            <div id="mainHold">
+                <div id="gridItem">
+                    <div id="flex1" class="col-lg-3 col-md-3 col-sm-9">
+                        <p id="pFlex1"><a href="" id="aFlex1">🍎 Supermarket</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">🌠 Health & Beauty</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">🏡 Home & Office</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">🧳 Appliances</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">📱 Phones & Tablets</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">💻 Computing</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">📺 Electronics</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">🥼 Fashion</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">👶 Baby Products</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">🎲 Gaming</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">🚛 Sporting Goods</a></p>
+                        <p id="pFlex1"><a href="" id="aFlex1">👁‍🗨 Other categories</a></p>
+                    </div>
+                    <div id="flex2" class="col-lg-6 col-md-3 col-sm-9 p-4">
+                        <img src="" alt="comingImage" id="comingImage">
+                        <span id="pName" style="font-size: 20px;"></span>
+                        <div id="divBut" class="d-flex mt-4 mb-2">
+                            <span class="p-1 text-light">Flash Saless</span>
+                            <span class="p-1 ps-5 text-light">Starts on June</span>
+                        </div>
+                        <span id="price" style="font-size: 20px;"></span>
+                        <p class="mt-4">VARIATION AVAILABLE</p>
+                        <div id="size" class="d-flex text-center">
+                            <div id="size1">M</div>
+                            <div id="size1">L</div>
+                            <div id="size1">XL</div>
+                            <div id="size1">XXL</div>
+                        </div>
+                        <span id="quantity"></span>
+                        <button class="form-control mt-4 p-2" style="font-size: 20px; color: white; background-color: #FF9200;" onclick="addToCart()">Add To Cart</button>
+                    </div>
+                    <div id="flex3" class="col-lg-3 col-md-3 col-sm-9 p-2">
+                        <p id="p1">PROMOTIONS</p>
+                        <p id="p2"><img src="image/favicon.ico" width="7%" alt=""> Need extra money? Loan up to N500,000 on the JumiaPay Android app.</p>
+                        <p id="p3"><img src="image/favicon.ico" width="7%" alt=""> Enjoy cheaper shipping fees when you select a PickUp Station at checkout.</p>
+                        <p id="p4"><img src="image/favicon.ico" width="7%" alt=""> Transfer up to N200,000 to any bank in Nigeria for FREE!</p>
+                        <button id="fol" class="form-control mt-5">Follow Us On Facebook</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
         <script>
-            console.log(pName)
-            // alert(pName)
-            // dsip.innerHTML = `<h1>${pName}</h1>`
+           function displayCart(){
+            let ourStorage = localStorage.getItem("saveProduct")
+            if(ourStorage){
+                let ourData = JSON.parse(ourStorage)
+                console.log(ourData);
+                pName.innerHTML = ourData.pName || ourData.proName
+                price.innerHTML = ourData.price
+                comingImage.attributes.src.value = ourData.image
+            }
+           }
+
+           const addToCart =() =>{
+            let productName = pName.innerHTML
+            let priceName = price.innerHTML
+            console.log(pName.innerHTML,price.innerHTML);
+            // localStorage.setItem("jumiaCart")
+            // console.log(jumiaCart);
+           }
+
+           if(localStorage.jumiaCart){
+                let myStorage = JSON.parse(localStorage.getItem("jumiaCart"))
+                console.log(jumiaCart)
+            }
+
+            const signIn =() =>{
+                window.location.href = "signIn.html"
+            }
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
 </html>

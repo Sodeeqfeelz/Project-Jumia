@@ -5,6 +5,9 @@ body {
     width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } 
+a {
+    cursor: pointer;
+}
 #div1 {
     height: 8.5vh;
     background-color: #7cc411;
@@ -73,6 +76,9 @@ body {
     background-color: white;
     z-index: 2;
 }
+#offCan {
+    display: none;
+}
 #div3-1 {
     width: 20%;
 }
@@ -125,7 +131,7 @@ body {
     padding-top: 10px;
     display: flex;
 }
-#btnDrop1 {
+#btnDrop1, #btnDrop1-2 {
     border: 0px;
     border-radius: 5px;
     width: 25vw;
@@ -138,7 +144,11 @@ body {
     color: #F68B1E;
     background-color: #D4D4D6;
 }
-#imgDrop1 {
+#btnDrop1-2:hover {
+    color: #F68B1E;
+    background-color: #D4D4D6;
+}
+#imgDrop1, #imgDrop1-1 {
     max-width: 27%;
     margin-top: -5px;
 }
@@ -659,6 +669,11 @@ main {
 #gridItem2:nth-child(1) {
     height: 23vh;
     background-color: #313133;
+    display: flex;
+}
+#fDiv1 {
+    border: 1px solid red;
+    width: 20vw;
 }
 #gridItem2:nth-child(2) {
     border: 1px solid red;

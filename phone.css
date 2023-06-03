@@ -2,42 +2,59 @@
     #div2 {
         display: none;
     }
+    #div3 {
+        height: 12vh;
+        flex-wrap: wrap;
+    }
     #div3-1 {
-        width: 30%;
+        width: 40%;
     }
     #paraDiv3 {
-        margin: 7px 0px 0px 10px;
-        font-size: 27px;
+        margin: 7px 0px 0px 20px;
+        font-size: 25px;
     }
     #imgDiv3 {
-        max-width: 15%;
-    }
+        max-width: 10%;
+    } 
     #div3-2 {
-        width: 70%;
+        width: 90%;
+        margin: -7px 0px 0px 20px;
+        padding-top: 0px;
     }
     #div3Inp {
-        border: 1px solid;
-        width: 50vw;
-        border-radius: 10px;
+        width: 70vw;
+        height: 5vh;
+        border-radius: 20px;
     }
     #imgDiv3-2 {
         max-width: 12%;
+        margin-left: 10px;
     }
     #inpDiv3-2 {
-        width: 40vw;
+        width: 53vw;
+        height: 4.5vh;
     }
     ::placeholder {
         font-size: 12px;
     }
     #btnDiv3 {
         width: 24%;
+        height: 5vh;
     }
     #div3-3 {
+        margin: -65px 0px 0px -170px;
+    }
+    #btnDrop1-2 {
         display: none;
     }
-    /* #mainHold {
-        border: 1px solid red;
-    } */
+    #dropSpan {
+        display: none;
+    }
+    #imgDrop1-1 {
+        max-width: 55%;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
     #gridItem {
         width: 100%;
         overflow-x: scroll;
@@ -115,8 +132,16 @@
     #grid8Body2 {
         overflow-x: scroll;
     }
-    #grid9Body2 {
-        overflow-x: scroll;
+    #gridItem:nth-child(9) {
+        height: 73vh;
+        overflow-y: hidden;
+    }
+    #card9 {
+        width: 18.5vw;
+        height: 20vh;
+    }
+    #imgCard9 {
+        height: 12.5vh;
     }
     #grid10Body2 {
         overflow-x: scroll;
@@ -124,8 +149,11 @@
     #grid11Body2 {
         overflow-x: scroll;
     }
-    #gridItem:nth-child(12) {
+    #grid12Body2 {
         overflow-x: scroll;
+    }
+    #card12 {
+        width: 25vw;
     }
     #grid13Body2 {
         overflow-x: scroll;
@@ -140,7 +168,12 @@
         overflow-x: scroll;
     }
     #gridItem:nth-child(17) {
-        overflow-x: scroll;;
+        height: 58vh;
+        overflow-x: scroll;
+    }
+    #card17 {
+        width: 18.5vw;
+        height: 15vh;
     }
     #grid18Body2 {
         overflow-x: scroll;
@@ -149,8 +182,12 @@
         overflow-x: scroll;
     }
     #gridItem:nth-child(20) {
-        border: 1px solid green;
-        height: 150vh;
-        background-color: white;
+        height: 48vh;
+    }
+    #grid20Body2 {
+        overflow-x: scroll;
+    }
+    #gridItem:nth-child(21) {
+        overflow: hidden;
     }
 }
