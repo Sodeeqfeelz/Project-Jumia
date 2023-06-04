@@ -898,10 +898,92 @@
             </div>
         </main>
         <div id="footer">
-            <div id="gridItem2"></div>
-            <div id="gridItem2"></div>
-            <div id="gridItem2"></div>
-            <div id="gridItem2"></div>
+            <div id="gridItem2">
+                <div id="fDiv1">
+                    <img id="fImg1" src="image/jumia image.png" alt="">
+                </div>
+                <div id="fDiv1-2">
+                    <p id="fP1">NEW TO JUMIA?</p>
+                    <p id="fP2">Subscribe to our newsletter to get updates on our latest offers!</p>
+                    <input type="text" id="fInp">
+                    <button id="fBtn1">MALE</button>
+                    <button id="fBtn2">FEMALE</button>
+                </div>
+                <div id="fDiv1">
+                    <div id="fDiv"><img src="image/favicon.ico" alt=""></div>
+                    <p id="fP2-1">DOWNLOAD JUMIA FREE APP</p>
+                    <p id="fP2-2">Get access to exclusive offers!</p>
+                    <a href="" id="fHref1">App Store</a>
+                    <a href="" id="fHref2">Google Play</a>
+                </div>
+            </div>
+            <div id="gridItem2">
+                <div id="divFoot1-1">
+                    <span id="sFoot">NEED HELP?</span>
+                    <li id="liF"><a id="aFoot" href="">Help Center</a></li>
+                    <li><a id="aFoot" href="">Contact Us</a></li>
+                    <li><a id="aFoot" href="">How to shop on Jumia?</a></li>
+                    <li><a id="aFoot" href="">Delivery options and timelines</a></li>
+                    <li><a id="aFoot" href="">How to return a product on Jumia?</a></li>
+                    <li><a id="aFoot" href="">Corporate and bulk purchases</a></li>
+                    <li><a id="aFoot" href="">Report a Product</a></li>
+                    <li><a id="aFoot" href="">Ship your package anywhere in Nigeria</a></li>
+                    <li><a id="aFoot" href="">Dispute Resolution Policy</a></li>
+                    <li><a id="aFoot" href="">Returns and Refunds Policy</a></li>
+                </div>
+                <div id="divFoot1">
+                    <span id="sFoot">ABOUT JUMIA</span>
+                    <li id="liF"><a id="aFoot" href="">About us</a></li>
+                    <li><a id="aFoot" href="">Jumia careers</a></li>
+                    <li><a id="aFoot" href="">Jumia Express</a></li>
+                    <li><a id="aFoot" href="">Terms and Conditions</a></li>
+                    <li><a id="aFoot" href="">Privacy Notice</a></li>
+                    <li><a id="aFoot" href="">Cookie Notice</a></li>
+                    <li><a id="aFoot" href="">Jumia Global</a></li>
+                    <li><a id="aFoot" href="">Official Stores</a></li>
+                    <li><a id="aFoot" href="">Flash Sales</a></li>
+                    <li><a id="aFoot" href="">Jumia Anniversary 2023</a></li>
+                </div>
+                <div id="divFoot1">
+                    <span id="sFoot">MAKE MONEY WITH JUMIA</span>
+                    <li id="liF"><a id="aFoot" href="">Sell on Jumia</a></li>
+                    <li><a id="aFoot" href="">Become a Sales Consultant</a></li>
+                    <li><a id="aFoot" href="">Become a Logistics Service Partner</a></li>
+                    <li><a id="aFoot" href="">Join the Jumia DA Academy</a></li>
+                    <li><a id="aFoot" href="">Join the Jumia KOL Program</a></li>
+                </div>
+                <div id="divFoot1">
+                    <span id="sFoot1">JUMIA INTERNATIONAL</span>
+                    <div id="ul">
+                        <ul>
+                            <li id="liF"><a id="aFoot" href="">Algeria</a></li>
+                            <li><a id="aFoot" href="">Egypt</a></li>
+                            <li><a id="aFoot" href="">Ghana</a></li>
+                            <li><a id="aFoot" href="">Ivory Coast</a></li>
+                            <li><a id="aFoot" href="">Kenya</a></li>
+                        </ul>
+                        <ul>
+                            <li><a id="aFoot" href="">Morocco</a></li>
+                            <li><a id="aFoot" href="">Senegal</a></li>
+                            <li><a id="aFoot" href="">Tunisia</a></li>
+                            <li><a id="aFoot" href="">Uganda</a></li>
+                            <li><a id="aFoot" href="">Zando</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="gridItem2">
+                <div id="divFoot3-1">JOIN US ON</div>
+                <div id="divFoot3-2">PAYMENT METHODS & DELIVERY PARTNERS</div>
+                <div id="divFoot3-3"></div>
+                <div id="divFoot3-4"></div>
+            </div>
+            <div id="gridItem2">
+                <a href="" id="aFl1">⑩PAY</a>
+                <a href="" id="aFl2">☄FOOD</a>
+                <a href="" id="aFl3">🧴PARTY</a>
+                <a href="" id="aFl4">௹LOGISTICS</a>
+            </div>
         </div>
 
         <script>
@@ -915,8 +997,9 @@
                 let map = {
                     image, price, proName
                 }
-                window.location.href = "details.html"
+                // window.location.href = "details.html"
                 localStorage.setItem("saveProduct",JSON.stringify(map))
+                console.log(map);
             }
 
             const signIn =() =>{

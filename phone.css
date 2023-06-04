@@ -189,5 +189,24 @@
     }
     #gridItem:nth-child(21) {
         overflow: hidden;
+        height: 80vh;
+    }
+    #h3Footer1, #pFooter3, #pFooter4, #h3Footer2, #pFooter5, #pFooter6, #pFooter7, #h3Footer3, #pFooter8, #pFooter9 {
+        display: none;
+    }
+    #footer {
+        height: 85vh;
+    }
+    #gridItem2:nth-child(1) {
+        display: none;
+    }
+    #divFoot1-1 {
+        text-align: center;
+    }
+    #divFoot1 {
+        display: none;
+    }
+    #gridItem2:nth-child(3) {
+        display: none;
     }
 }
